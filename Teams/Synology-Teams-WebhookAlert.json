@@ -27,7 +27,7 @@
         {
             "separator": true,
             "type": "TextBlock",
-            "text": "@{body('Parse_JSON')?['message']}",
+            "text": "@{body('Parse_JSON')?['text']}",
             "wrap": true
         },
         {
